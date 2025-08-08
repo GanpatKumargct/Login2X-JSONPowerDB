@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Enrollment Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- JPDB commons -->
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="text-center">Student Enrollment Form</h2>
+            <form id="studentForm" method="post">
+                <div class="form-group">
+                    <label for="rollNo">Roll No:</label>
+                    <input type="number" class="form-control" id="rollNo" placeholder="Enter Roll Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter Full Name" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="studentClass">Class:</label>
+                    <input type="text" class="form-control" id="studentClass" placeholder="Enter Class" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate">Birth Date:</label>
+                    <input type="date" class="form-control" id="birthDate" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea class="form-control" id="address" placeholder="Enter Address" disabled></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="enrollDate">Enrollment Date:</label>
+                    <input type="date" class="form-control" id="enrollDate" disabled>
+                </div>
+
+                <!-- Buttons -->
+                <input type="button" class="btn btn-success" id="saveBtn" value="Save" onclick="saveStudent();" disabled>
+                <input type="button" class="btn btn-warning" id="updateBtn" value="Update" onclick="updateStudent();" disabled>
+                <input type="button" class="btn btn-danger" id="resetBtn" value="Reset" onclick="resetForm();" disabled>
+            </form>
+        </div>
+
+        <script src="index.js"> </script>
+    </body>
+</html>
