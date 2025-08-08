@@ -52,8 +52,12 @@ The project follows the JPDB micro-project requirements with **primary key detec
 **JSON Example**  
 <img width="302" height="120" alt="image" src="https://github.com/user-attachments/assets/954cc3d9-2967-43ec-8361-bcd6ffa9eec2" />
 
-**Form Screenshot**
+**Form Screenshot Add a new entry**
 <img width="1254" height="629" alt="image" src="https://github.com/user-attachments/assets/dab1425b-3d7f-423a-ba27-eb84b8bc4bfc" />
+
+**Form Screenshot Update Data**
+<img width="1230" height="669" alt="image" src="https://github.com/user-attachments/assets/cb8b4eee-ad5d-4dbb-b1a1-cfe635cb8da9" />
+
 
 ---
 
